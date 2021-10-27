@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Для того что бы изображение занимал весь блок */
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h2,
+h3 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 40px;
+  max-width: 872px;
+}
+
+figure {
+  margin: 0px;
+  display: inline-block;
+  margin-bottom: 40px;
+  max-width: 872px;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.content {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+  margin-bottom: 40px;
+}
+
+/* Использование вложенности в CSS */
+.content p {
+  max-width: 692px;
+  margin-bottom: 10px;
+}
+
+.content:last-child {
+  margin-bottom: 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+/* Задаю отступ снизу */
+.logo {
+  margin-bottom: 50px;
+}
+
+.link-navigation {
+  margin-bottom: 50px;
+}
+
+/* строчно-блочный элемент и отступы */
+.link-navigation-item {
+  padding: 24px 49px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.link-navigation-item:last-child {
+  margin-right: 0;
+}
+
+.pic_content {
+  margin-bottom: 40px;
+}
